@@ -8,7 +8,7 @@ A simple, responsive travel-themed website designed to showcase the joy of trave
 
 Built with **HTML**, **CSS**, and **JavaScript** for theme functionality. Users can easily explore the content and enjoy the interactive features.
 
-View published App on Netlify: https://globe-trotting.netlify.app/ 
+View hosted App on Netlify: https://globe-trotting.netlify.app/ 
 
 DON'T FORGET TO TEST THE SITE TO VIEW IT'S FUNCTIONALITY 🥰😊😊!
 
