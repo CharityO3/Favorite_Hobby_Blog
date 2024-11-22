@@ -6,6 +6,11 @@ A simple, responsive travel-themed website designed to showcase the joy of trave
 - **Responsive design** for seamless viewing on all devices.
 - **External links** to a Wikipedia travel article and my Instagram profile.
 
-Built with **HTML**, **CSS**, and **JavaScript** for theme functionality. Users can easily explore the content and enjoy the interactive features. 
+Built with **HTML**, **CSS**, and **JavaScript** for theme functionality. Users can easily explore the content and enjoy the interactive features.
+
+View hosted App on Netlify: https://globe-trotting.netlify.app/ 
+
+DON'T FORGET TO TEST THE SITE TO VIEW IT'S FUNCTIONALITY 🥰😊😊!
+
 
 **Author**: [Charity Orhoridiohwo](https://www.linkedin.com/in/charity-orhoridiohwo-548873150/).
