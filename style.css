@@ -7,24 +7,25 @@ h1{
   text-align: center;
   font-family: Tahoma, sans-serif;
 }
+
 h2{
   text-align: center;
   /* font-family: Georgia, serif; -->*/
   font-family: Cerebri Sans, Helvetica, Arial, sans-serif;
-  font-weight: 900;
-  
+  font-weight: 900;  
 }
-.container{
-  max-width: 600px;
-  background-color: white;
-  padding: 20px;
-  border-radius: 10px;
-  margin: 0 auto;
-  
+
+p{
+  /*font-family: 'Playfair Display Italic';*/
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.5; 
 }
+
 img{
   max-width: 100%;
 }
+
 button{
   display: block;
   margin: 20px auto;
@@ -35,16 +36,48 @@ button{
   padding: 10px 15px;
   transition: all 150ms ease-in-out;
 }
+
 button:hover{
   background: teal;
   cursor: pointer;
-
+  
 }
+
+a{
+  font-size: 18px;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
 footer{
   text-align: center;
   margin: 10px 0;
   font-size: 18px;
+  color: white;
+  opacity: 0.7;
 }
+
+footer a{
+  color: #E0AE33;
+  text-decoration: none;
+}
+
+footer a:hover{
+  text-decoration: underline;
+  color: #885DF1;
+}
+
+.container{
+  max-width: 600px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
 .theme-button{
   font-size: 10px;
   background: black;
@@ -53,30 +86,29 @@ footer{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
+
 .theme-button:hover{
   background: white;
   color: black;
 }
-p{
-  /*font-family: 'Playfair Display Italic';*/
-  text-align: justify;
-  font-size: 16px;
-  line-height: 1.5;        
-}
+
 .travel-intro-picture{
   border-radius: 10px;
   transition: all 150ms ease-in-out;
 }
+
 .travel-intro-picture:hover{
   filter: contrast(80%);
   transform: scale(1.1);
 }
+
 .grid{
   margin: 15px 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
 }
+
 .grid img{
   width:100%;
   height: 100%;
@@ -86,24 +118,23 @@ p{
   transition: all 150ms ease-in-out;
 
 }
+
 .grid img:hover{
   transform: scale(2);
 }
+
 .dark{
   /*background:linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);*/
   background-image: url("https://storge.pic2.me/w/560x350/424/5996225f02bef.webp");
   color: white;
   background-size: cover;
-
-
 }
+
 .dark .container{
   background: rgba(255, 255, 255, 0.1);
   background-color: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%); /*rgba(255, 255, 255, 0.1);*/
 }
+
 .dark a{
   color: #885DF1;
-}
-a{
-  font-size: 18px;
 }
